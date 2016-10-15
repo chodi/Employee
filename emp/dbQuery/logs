@@ -1,0 +1,49 @@
+2016/08/12:duplicate ID of :7458
+2016/08/12:duplicate ID of :7458
+2016/08/12:duplicate ID of :1111
+2016-08-12 06:11:39pm:duplicate ID of :1111
+2016-08-15 12:23:37pm:duplicate ID of :1111
+2016-08-17 11:14:49am:Success Insert at employee: 0909
+2016-08-23 10:11:21am:Success Insert at employee: 0001
+2016-08-23 10:11:36am:duplicate ID of :0001
+2016-08-23 10:13:00am:Success Insert at employee: 0002
+2016-08-23 10:21:42am:Success Insert at employee: 0002
+2016-08-23 10:41:29am:Success Insert at employee: 123
+2016-09-22 10:14:30am:Success Insert at employee: 0000
+2016-09-22 10:15:11am:Success Insert at employee: 0926
+2016-09-22 12:20:05pm:duplicate ID of :0000
+2016-09-22 12:23:23pm:duplicate ID of :0000
+2016-09-22 12:24:39pm:duplicate ID of :0000
+2016-09-22 12:26:49pm:duplicate ID of :0000
+2016-09-22 12:32:58pm:duplicate ID of :0000
+2016-09-22 12:33:09pm:duplicate ID of :0000
+2016-09-22 12:35:08pm:Success Insert at employee: 0000
+2016-09-22 12:52:06pm:duplicate ID of :0000
+2016-09-22 12:52:46pm:Success Insert at employee: 0000
+2016-09-22 12:53:49pm:Success Insert at employee: 1111
+2016-09-23 11:50:57am:Success Insert at employee: 0000
+2016-09-23 11:51:17am:Success Insert at employee: 0926
+2016-10-05 08:35:46am:Success Insert at employee: 123123123
+2016-10-05 09:27:19am:Success Insert at employee: 34534
+2016-10-05 09:37:42am:Success Insert at employee: fghfgd
+2016-10-05 09:43:33am:Success Insert at employee: 1111
+2016-10-05 10:25:16am:Success Insert at employee: 1111
+2016-10-05 10:31:49am:Success Insert at employee: 1111
+2016-10-05 10:33:39am:Success Insert at employee: 1111
+2016-10-05 10:35:03am:Success Insert at employee: 1111
+2016-10-05 10:40:36am:Success Insert at employee: 1212
+2016-10-05 10:48:48am:Success Insert at employee: 1212
+2016-10-05 10:49:20am:Success Insert at employee: 1212
+2016-10-05 10:50:21am:Success Insert at employee: fghfgd
+2016-10-05 10:53:13am:Success Insert at employee: fghfgd
+2016-10-05 10:53:27am:Success Insert at employee: 0000
+2016-10-05 10:56:29am:Success Insert at employee: 1212
+2016-10-05 10:58:44am:Success Insert at employee: 1212
+2016-10-05 11:01:24am:Success Insert at employee: 1212
+2016-10-05 11:02:29am:Success Insert at employee: 1212
+2016-10-05 11:05:53am:Success Insert at employee: 40229
+2016-10-05 11:06:35am:Success Insert at employee: 40229
+2016-10-05 11:07:46am:Success Insert at employee: 40229
+2016-10-05 11:17:38am:Success Insert at employee: 21497
+2016-10-05 11:20:40am:Success Insert at employee: 40231
+2016-10-05 11:22:24am:Success Insert at employee: 40186

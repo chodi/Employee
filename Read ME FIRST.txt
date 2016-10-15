@@ -1,0 +1,15 @@
+Upload to database the file "employee.sql"
+    -username: "user"
+    -password: "user"
+    
+Root directory is "emp"
+
+
+emp is a mini project done by Christian.
+it just have a small functionality such as ADD,EDIT/UPDATE, DELETE and VIEW of Employee Information
+
+
+Enjoy!
+
+
+

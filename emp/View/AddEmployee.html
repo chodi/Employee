@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title>
+            Add Employee
+        </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/mystyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="banner" class="text-center">
+            Employee
+        </div>
+        <div id="margin">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Home</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active" ><a href="AddEmployee.html">Add Employee</a></li>
+                        <li><a href="ViewEmployee.html">View Employee</a></li>
+                        <li><a href="DeleteEmployee.html">Delete Employee</a></li>
+                        <li><a href="UpdateEmployee.html">Update Employee</a></li>
+                        <li><a href="SearchEmployee.html">Search Employee</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id='center-div' style='width:50%; margin:80px auto auto auto;'>
+           <form class="form-horizontal" action='/emp/dbQuery/store.php' method="post" >
+              <div class="form-group">
+                  <label for="inputEmplNum" class="col-sm-2 control-label">Employee No.</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputEmployeeNumber" name="EmployeeNumber" placeholder="Employee number" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                <label for="inputLastname" class="col-sm-2 control-label">Lastname</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="lastname" id="inputLastname" placeholder="Lastname" required>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                  <label for="inputFirstname" class="col-sm-2 control-label">Firstname</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" name="firstname" id="inputFirstname" placeholder="Firstname" required>
+                  </div>
+              </div>
+              
+              <div class="form-group">
+                  <label for="Position" class="col-sm-2 control-label">Position</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" name="position" id="position" placeholder="Position" required>
+                  </div>
+              </div>
+              
+              <div class="form-group">
+                  <label for="Salary" class="col-sm-2 control-label">Salary</label>
+                  <div class="col-sm-10">
+                      <input type="number" class="form-control" name="salary" id="salary" placeholder="Salary" required>
+                  </div>
+              </div>
+              
+               <div class="form-group">
+                  <label for="HireDate" class="col-sm-2 control-label">Hire Date</label>
+                  <div class="col-sm-4">
+                      <select id="hireDateMonth" name="month" class="form-control">
+                          <option value="01">January</option>
+                          <option value="02">February</option>
+                          <option value="03">March</option>
+                          <option value="04">April</option>
+                          <option value="05">May</option>
+                          <option value="06">June</option>
+                          <option value="07">July</option>
+                          <option value="08">August</option>
+                          <option value="09">September</option>
+                          <option value="10">October</option>
+                          <option value="11">November</option>
+                          <option value="12">December</option>                          
+                      </select>
+                  </div>
+                  <div class="col-sm-3">
+                      <select id="hireDateDate" name="date" class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                          <option>9</option>
+                          <option>10</option>
+                          <option>11</option>
+                          <option>12</option>
+                          <option>13</option>
+                          <option>14</option>
+                          <option>15</option>
+                          <option>16</option>
+                          <option>17</option>
+                          <option>18</option>
+                          <option>19</option>
+                          <option>20</option>
+                          <option>21</option>
+                          <option>22</option>
+                          <option>23</option>
+                          <option>24</option>
+                          <option>25</option>
+                          <option>26</option>
+                          <option>27</option>
+                          <option>28</option>
+                          <option>29</option>
+                          <option>30</option>
+                          <option>31</option>
+                          
+                      </select>
+                  </div>
+                  <div class="col-sm-3">
+                      <select id="hireDateYear" name="year1" class="form-control">
+                          <option>1990</option>
+                          <option>1991</option>
+                          <option>1992</option>
+                          <option>1993</option>
+                          <option>1994</option>
+                          <option>1995</option>
+                          <option>1996</option>
+                          <option>1997</option>
+                          <option>1998</option>
+                          <option>1999</option>
+                          <option>2000</option>
+                          <option>2001</option>
+                          <option>2002</option>
+                          <option>2003</option>
+                          <option>2004</option>
+                          <option>2005</option>
+                          <option>2006</option>
+                          <option>2007</option>
+                          <option>2008</option>
+                          <option>2009</option>
+                          <option>2010</option>
+                          <option>2011</option>
+                          <option>2012</option>
+                          <option>2013</option>
+                          <option>2014</option>
+                      </select>
+                  </div>
+              </div>
+              
+            <!--  <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Remember me
+                    </label>
+                  </div>
+                </div>
+              </div>
+             --> 
+             <div class="form-group">
+                 <div class="col-sm-offset-2 col-sm-3">
+                     <button type="submit" class="btn-success btn-lg btn-default">Add</button>
+                 </div>
+                 <div class="col-sm-3">
+                     <button type="button" class="btn-danger btn-lg btn-default" onclick="location.href ='/emp/index.html';">Cancel</button>
+                 </div>
+              </div>
+            </form>
+        </div>
+               
+    </body>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Christian Rey Erandio | 09266270079 | <a href="http://zchodi.blogspot.com">zchodi.blogspot.com</a></p>
+        </div>
+    </footer>
+
+</html>
